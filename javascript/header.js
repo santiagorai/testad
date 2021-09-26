@@ -88,7 +88,7 @@ var HeaderShowUtil = {
             rStr += '					<div class="record_list record_list1" id="hdShowHistory">';
             rStr += '						<ul>';
             rStr += '						</ul>';
-            rStr += '						<a class="all" href="/" >查看全部</a>';
+            rStr += '						<a class="all" href="/" >查看全部 </a>';
             rStr += '					</div>';
             rStr += '					<div class="record_list record_list2" style="display:none" id="hsShowFav">';
             rStr += '						<ul>';
