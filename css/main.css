@@ -243,6 +243,74 @@
 .items_txt .intro a:hover, .rightList .more a:hover, .updateTable .style a:hover, .rightList .on .book_intro .txt:hover { color: #f70 }
 .icon_show:hover, .icon_hide:hover { color: #2972cc }
 .channelChapterlist { min-height: 600px }
+/* Phần CSS Bổ Sung */
+/* banner轮播图 */
+.banner{
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.banner-box{
+	bottom: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-box ul{
+	overflow: hidden;
+}
+
+.banner-box li,.banner-box a{
+	max-height: 400px;
+	z-index: 1;
+}
+
+.banner .banner-box img{
+	width: 100%;
+}
+
+.banner .banner-box .banner-menu{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+
+.banner .banner-box .banner-menu a:hover{
+	opacity: 1;
+	background: var(--main-color);
+}
+
+.banner .banner-box .banner-menu a{
+	box-sizing: border-box;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #fff;
+	background: #000;
+	opacity: 0.5;
+}
+
+.banner .banner-box .banner-menu a:not(:last-child){
+	border-right: 1px solid #ccc;
+}
+
+.banner-menu a:hover{
+	background: var(--main-color)
+}
+
+.banner .banner-box .show{
+	display: block;
+}
+
+.banner .banner-box .hidden{
+	display: none;
+}
 
 /* 限时免费 */
 .free-time{
