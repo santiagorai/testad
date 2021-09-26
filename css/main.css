@@ -243,6 +243,7 @@
 .items_txt .intro a:hover, .rightList .more a:hover, .updateTable .style a:hover, .rightList .on .book_intro .txt:hover { color: #f70 }
 .icon_show:hover, .icon_hide:hover { color: #2972cc }
 .channelChapterlist { min-height: 600px }
+
 /* Phần CSS Bổ Sung */
 /* banner轮播图 */
 .banner{
