@@ -243,3 +243,108 @@
 .items_txt .intro a:hover, .rightList .more a:hover, .updateTable .style a:hover, .rightList .on .book_intro .txt:hover { color: #f70 }
 .icon_show:hover, .icon_hide:hover { color: #2972cc }
 .channelChapterlist { min-height: 600px }
+
+/* 限时免费 */
+.free-time{
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+
+.free-time .timing-block{
+	width: 16%;
+	float: left;
+	text-align: center;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.free-time .timing-block span{
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: var(--main-color,#008c8c);
+	margin-bottom: 10px;
+}
+
+.free-time .timing-block p{
+	font-size: 0.6em;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.free-time .timing-block i{
+	font-size: 5em;
+	color: var(--main-color);
+}
+
+.free-time .timing-block p.time{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 10px;
+	color: var(--main-color,#008c8c);
+	
+}
+
+.free-time ul{
+	width: 84%;
+	display: inline-block;
+	overflow: hidden;
+
+}
+
+.free-time ul>li{
+	float: left;
+	height: 100%;
+	width: 25%;
+	border-left: 1px solid #ccc;
+	box-sizing: border-box;
+	transition: box-shadow 1s;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.free-time ul>li:hover{
+	box-shadow: 0 5px 16px #ccc;
+}
+
+
+.free-time ul>li img{
+	width: 80px;
+	text-align: center;
+	margin: 30px 0 20px 0;
+	box-shadow: 1px 3px 5px #ccc;
+}
+
+.free-time ul>li img{
+	width: 80px;
+	text-align: center;
+	margin: 30px 0 20px 0;
+	box-shadow: 1px 3px 5px #ccc;
+}
+
+.free-time ul>li h3{
+	font-size: 1em;
+}
+
+.free-time ul>li a{
+	height: 30px;
+	width: 50%;
+	color: var(--main-color);
+	line-height: 30px;
+	border-radius: 30px;
+	border: 1px solid var(--main-color);
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.free-time ul>li a:hover{
+	color: #fff;
+	background: var(--main-color);
+}
+.user-left .info-menu ul>li i.iconfont{
+	margin-right:10px;
+	font-size: 24px;
+}
