@@ -2,8 +2,17 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head th:replace="common/header :: common_head(~{::title},~{},~{::link},~{})">
-    <title th:text="'个人中心_'+${application.website.name}"></title>
+<head>
+    <title>Thiên Môn | Tiểu Thuyết | Đọc Sách Online Mỗi Ngày</title>
+    <meta name="keywords" th:content="${application.website.keyword}"/>
+    <meta name="description"
+          th:content="${application.website.description}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+    <link href="favicon.ico" type="image/x-icon" rel="Bookmark"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/base.css"/>
     <link rel="stylesheet" href="/css/user.css"/>
 </head>
 <body class="">
